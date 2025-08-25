@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estetca Dl'art</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- owl carousel 2 effects animation- -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" />
+
+    <!-- Bricolage Grotesque -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- css link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="icon" href="images/main-logo.png">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container-fluid headerhomebg">
+        <div include-html="header.html" id="header-file"></div>
+    </div>
+
+    <!-- hero -->
+    <div class="container-fluid hero-section">
+        <!-- Left Transparent Box -->
+        <div class="hero-content">
+            <h5>ENHANCE YOUR NATURAL GLOW</h5>
+            <h1>A Tradition of healthcare excellence</h1>
+            <p>We are modern clinic of Dental, Hair, Skin, Laser & Aesthetic treatments for people who want to enjoy an
+                attractive appearance for a long time.</p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn-green secbtcol">SCHEDULE APPOINTMENT</a>
+                <a href="#" class="btn-link">Interested in our Special? <br> CLICK HERE <i
+                        class="bi bi-arrow-down-right"></i></a>
+            </div>
+        </div>
+        <!-- her-img(mobile) -->
+        <div class="herimgmob">
+            <img class="img-fluid" src="images/hero-teamimg-mobile.png" alt="">
+        </div>
+
+        <!-- Mobile Book Button -->
+        <a href="#" class="book-btn-mobile d-lg-none">BOOK APPOINTMENT</a>
+    </div>
+
+    <!-- Welcome to Estetca Dl’art -->
+    <div class="container-fluid secwlbg1">
+        <div class="contaier">
+            <div class="row m-0">
+                <div class="col-md-6">
+                    <div class="secimgr">
+                        <img class="img-fluid" src="images/wleimg.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sectextwel">
+                        <h5>Welcome to Estetca Dl’art</h5>
+                        <h2>Where Timeless Beauty Meets Modern Science.</h2>
+                        <p>An exclusive sanctuary devoted to enhancing your natural elegance through cutting-edge skin
+                            and aesthetic solutions. At Estetca Dl’art, we believe that true beauty is a harmonious
+                            blend of art, wellness, and individuality.</p>
+                        <p>Founded by renowned experts in aesthetic medicine and wellness, Estetca Dl’art is more than
+                            just a clinic — it’s a refined experience. Our team of elite dermatologists, skin
+                            specialists, and holistic wellness professionals work in unison to provide results that not
+                            only transform appearances but elevate confidence from within.</p>
+                        <p>Each treatment at Estetca Dl’art is thoughtfully curated to reflect your personal beauty
+                            journey. Whether it’s rejuvenating skin therapies, advanced hair restoration, or bespoke
+                            aesthetic treatments, we deliver excellence with empathy, precision, and passion.</p>
+                        <p>Step into a space where clinical expertise merges with luxury, and your story is at the heart
+                            of every solution. From state-of-the-art technology to the finest patient care, Estetca
+                            Dl’art is redefining aesthetic wellness in the most artistic and meaningful way.</p>
+                        <h4>Experience the art of transformation — only at Estetca Dl’art.</h4>
+
+                        <div class="secntbabot">
+                            <a href="#">More About us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Featured Treatments -->
+    <div class="container-fluid secfeatubg">
+        <div class="container secpamob">
+            <h2 class="outextm">Our Featured Treatments</h2>
+
+            <div class="row m-0 pt-5">
+                <div class="col-md-5">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Teeth-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="sectextor">
+                        <h3>Teeth Whitening & Alignment</h3>
+                        <p>Dental care treatment includes routine cleanings, fillings, root canals, crowns, and gum
+                            disease management. It helps prevent tooth decay, bad breath, and oral infections. Regular
+                            dental visits promote healthy teeth and gums, detect early signs of problems, and improve
+                            overall health, contributing to a confident smile and long-term oral hygiene.</p>
+
+                        <ul class="secutehast">
+                            <li>DentalCare</li>
+                            <li>OralHealth</li>
+                            <li>TeethCleaning</li>
+                            <li>CavityFilling</li>
+                            <li>SmileCare</li>
+                            <li>CavityFilling</li>
+                            <li>ToothRestoration</li>
+                            <li>RootCanal</li>
+                            <li>HealthySmile</li>
+                            <li>DentalCheckup</li>
+                            <li>HealthySmile</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hair Treatment -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <div class="row m-0 secrdfg">
+                <div class="col-md-7">
+                    <div class="sectextor secultext">
+                        <h3 class="text-light">Hair Treatment</h3>
+                        <p class="text-light">Hair treatment involves nourishing and repairing damaged hair using
+                            specialized products or procedures like deep conditioning, keratin treatments, and scalp
+                            therapies. These treatments help restore strength, shine, and manageability, addressing
+                            issues such as hair fall, dryness, or split ends. Regular care promotes healthier, smoother,
+                            and more vibrant-looking hair.</p>
+
+                        <ul class="secutehast ">
+                            <li>HairCare</li>
+                            <li>HairRepair</li>
+                            <li>HairTreatment</li>
+                            <li>HealthyHair</li>
+                            <li>HairBotox</li>
+                            <li>DamagedHair</li>
+                            <li>HairTransformation</li>
+                            <li>KeratinTreatment</li>
+                            <li>HairGloss</li>
+                            <li>HairGrowthTreatment</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Hair-Treatment-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skin Rejuvenation -->
+    <div class="container-fluid secfeatubg">
+        <div class="container secpamob">
+            <div class="row m-0">
+                <div class="col-md-5">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Skin-Rejuvenation-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="sectextor">
+                        <h3>Skin Rejuvenation</h3>
+                        <p>Skin rejuvenation is a cosmetic treatment aimed at restoring youthful, radiant skin. It
+                            reduces signs of aging, such as wrinkles, fine lines, sunspots, and uneven tone, using
+                            methods like chemical peels, laser therapy, or microneedling. Regular rejuvenation improves
+                            skin texture, boosts collagen production, and enhances overall skin health and glow.</p>
+
+                        <ul class="secutehast">
+                            <li>GlowingSkin</li>
+                            <li>YouthfulSkin</li>
+                            <li>HealthySkin</li>
+                            <li>RadiantSkin</li>
+                            <li>SkinCareRoutine</li>
+                            <li>SkinHealth</li>
+                            <li>RejuvenateYourSkin</li>
+                            <li>FacialTreatment</li>
+                            <li>Hydrafacial</li>
+                            <li>LEDLightTherapy</li>
+                            <li>SkinTightening</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aesthetic Enhancements -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <div class="row m-0 secrdfg">
+                <div class="col-md-7">
+                    <div class="sectextor secultext">
+                        <h3 class="text-light">Aesthetic Enhancements</h3>
+                        <p class="text-light">Hair treatment involves nourishing and repairing damaged hair using
+                            specialized products or procedures like deep conditioning, keratin treatments, and scalp
+                            therapies. These treatments help restore strength, shine, and manageability, addressing
+                            issues such as hair fall, dryness, or split ends. Regular care promotes healthier, smoother,
+                            and more vibrant-looking hair.</p>
+
+                        <ul class="secutehast ">
+                            <li>BeautyEnhancement</li>
+                            <li>AestheticClinic</li>
+                            <li>CosmeticTreatments</li>
+                            <li>NonSurgicalBeauty</li>
+                            <li>BotoxTreatment</li>
+                            <li>LipEnhancement</li>
+                            <li>CheekContouring</li>
+                            <li>LaserAesthetics</li>
+                            <li>DermalFillers</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Aesthetic-Enhancements-img.png" alt="">
+                    </div>
+                </div>
+
+
+            
+            </div>
+                <div class="secntbabot text-center">
+                    <a href="#">View all services</a>
+                </div>
+        </div>
+    </div>
+
+    <!-- Transformative Results -->
+    <div class="container-fluid secfeatubg">
+        <h2 class="outextm">Transformative Results</h2>
+        <div class="row m-0 secpadmob">
+            <div class="col-md-4">
+                <img class="img-fluid" src="images/Resultsimg1.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="images/Resultsimg2.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="images/Resultsimg3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- News & Blogs -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <h2 class="outextm text-light">News & Blogs</h2>
+
+            <div class="row m-0">
+                <div class="col-md-4">
+                    <a class="blogseca" href="#">
+                        <div class="secblbg">
+                            <img class="img-fluid" src="images/blogimg1.png" alt="">
+                            <div class="secblotext">
+                                <h3>Removal of white hair Permanently</h3>
+                                <p>Of late, many male youngsters are requiring removal of white hair mainly from their
+                                    face These young males are in the age .....</p>
+                                <a href="#">READ MORE ››</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="blogseca" href="#">
+                        <div class="secblbg">
+                            <img class="img-fluid" src="images/blogimg2.png" alt="">
+                            <div class="secblotext">
+                                <h3>Removal of white hair Permanently</h3>
+                                <p>Of late, many male youngsters are requiring removal of white hair mainly from their
+                                    face These young males are in the age .....</p>
+                                <a href="#">READ MORE ››</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a class="blogseca" href="#">
+                        <div class="secblbg">
+                            <img class="img-fluid" src="images/blogimg3.png" alt="">
+                            <div class="secblotext">
+                                <h3>Removal of white hair Permanently</h3>
+                                <p>Of late, many male youngsters are requiring removal of white hair mainly from their
+                                    face These young males are in the age .....</p>
+                                <a href="#">READ MORE ››</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="secntbabot text-center pt-5">
+                <a href="#">View all Articles</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- reviews -->
+    <div class="container-fluid secfeatubg">
+        <div class="container ">
+            <div class="owl-carousel secreviews owl-theme">
+                <div class="item">
+                    <div class="secrevewbg">
+                        <div class="secstart">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="revtext">
+                            <p>I had an amazing experience with the Moonlight Hydra Facial! From start to finish, the
+                                service was professional, relaxing, and incredibly effective. The staff was very
+                                knowledgeable and made me feel completely comfortable throughout the session. My skin
+                                instantly felt cleaner, more hydrated, and had a visible glow right after the treatment.
+                            </p>
+                            <p> What I loved most was how gentle yet deep the facial was — no pain at all, just pure
+                                pampering! The ambiance of the clinic is soothing and clean, which added to the overall
+                                experience.</p>
+
+                            <p> Highly recommend it to anyone looking for a skin refresh or a pre-event glow-up! Will
+                                definitely be coming back for more sessions. ✨💆‍♀️</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="secrevewbg">
+                        <div class="secstart">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="revtext">
+                            <p>I tried IV-Glutathione treatment for the first time and was really impressed with the
+                                service. It was painless and super comfortable; done under the supervision of doctor
+                                herself. The staff were friendly, and very helpful. Great experience overall!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="secrevewbg">
+                        <div class="secstart">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="revtext">
+                            <p>It is the hidden jem . Dr priya is very good , so helpful.
+                                Must go there.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="secrevewbg">
+                        <div class="secstart">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="revtext">
+                            <p>I’m so happy right now after visiting this skin clinic i saw clear & crystal changes in
+                                my skin , my skin feels so clean , so bright. Best if you’re looking for skin therapy
+                                this place is must. Best consultation with best services. Must visit once.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="secrevewbg">
+                        <div class="secstart">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="revtext">
+                            <p>I took a full body laser treatment from this place and the treatment is still on
+                                going.I’m quite content with the services since the staff is very humble and
+                                polite.Hoping to avail the services even in future.
+                                Thank you</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- video -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <h2 class="outextm text-light">What Our Patients Say About Estetca Dl’art</h2>
+
+            <div class="row m-0">
+                <div class="col-md-6">
+                    <div class="secyouvidebg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_7YV0-0-ZDE?si=szJDLgPBmzjJX49M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="secyouvidebg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/p4SyjV-O_I0?si=xuSN0sK8p0yyx3ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            <div class="secntbabot text-center pt-5">
+                <a href="#">View all Reviews</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <div include-html="footer.html" id="footer-file"></div>
+
+    <!-- tab -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/include-html.min.js"></script>
+
+    <script>
+        $('.owl-carousel.secreviews').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>

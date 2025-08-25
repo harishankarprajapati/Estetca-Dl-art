@@ -1,0 +1,231 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:1024px) {}
+
+
+
+
+/*  */
+@media only screen and (max-width:999px) {}
+
+/* =======================
+     MOBILE RESPONSIVE FIX
+     ======================= */
+@media (max-width: 991px) {
+  .main-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    flex: 0 0 auto;
+    padding: 8px;
+    background: #0e3b3f;
+  }
+
+  .nav-area {
+    display: none;
+    /* hide desktop nav in mobile */
+  }
+
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0e3b3f;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .mobile-header .phone-number {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 90px;
+    color: #fff;
+  }
+
+  span.phone-number a {
+    color: #fff;
+  }
+
+  .mobile-header .menu-btn {
+    background: #f4935d;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .mobile-header .menu-btn i {
+    color: #0e3b3f;
+    font-size: 22px;
+  }
+.btn-green {
+         font-size: 10px;
+        padding: 14px 13px;
+    }
+    .btn-link {
+    text-align: start;
+    }
+  /* Hide desktop book button in mobile */
+  .main-header>.d-flex {
+    display: none !important;
+  }
+
+  .main-header {
+    background: #0e3b3f;
+  }
+
+  .offcanvas-body {
+    padding: 10px 40px;
+  }
+
+  .offcanvas-header {
+    background: #0e3b3f;
+    color: #fff;
+  }
+
+  .offcanvas-body {
+    padding: 10px 40px;
+  }
+
+  .social-fixed {
+    display: flex;
+  }
+
+  .hero-section {
+    background-image: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 0px;
+    background-position: top center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  /* Full width book button in mobile */
+  .book-btn-mobile {
+      font-family: 'Karla';
+    display: block;
+    background: #f4935d;
+    color: #1B444A;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .book-btn-mobile:hover {
+    background: #e67e3e;
+    color: #fff;
+  }
+
+  .herimgmob {
+    display: block;
+  }
+  .secrdfg {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.secwlbg1 {
+    padding: 40px 0px;
+}
+.secimgr img {
+    border-radius: 15px;
+}
+.sectextwel {
+    padding-top: 20px;
+}
+.sectextwel h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.secfeatubg {
+    padding: 40px 0px;
+}
+.secpamob{
+  padding: 0px;
+}
+.outextm {
+    font-size: 32px;
+}
+.sectextor {
+    padding-top: 20px;
+}
+.sechatetbg {
+    padding: 40px 0px;
+}
+.secpadmob{
+  padding: 20px;
+}
+.secpadmob .col-md-4 img{
+  padding-bottom: 20px;
+}
+.secblbg {
+    padding-bottom: 30px;
+}
+.revtext p {
+    font-size: 16px;
+}
+.secyouvidebg {
+    padding-bottom: 20px;
+}
+.secyouvidebg iframe {
+    border-radius: 10px;
+}
+.appointment-box {
+    padding: 20px 0px;
+}
+.serfooterbg {
+    padding: 40px 10px;
+}
+.secheafotext {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.footer-nav {
+    justify-content: center;
+}
+.seccopy {
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width:768px) {}
+
+
+/* Responsive gap fix */
+@media(max-width: 576px) {}
+
+@media only screen and (max-width:380px) {}
+
+
+@media only screen and (max-width:320px) {}
