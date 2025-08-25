@@ -547,9 +547,148 @@ hr.sechrher {
   font-size: 20px;
 }
 
-.seccopy{
-    padding-right: 15px;
+.seccopy {
+  padding-right: 15px;
   font-family: 'Karla';
   color: #fff;
   text-align: end;
+}
+
+.secservbg {
+  background-image: url(../images/serves-bgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #222;
+
+}
+
+.secsebgma {
+  background-color: #F2985C;
+  padding: 60px;
+}
+
+.secfulltext {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.secwkmob a:hover {
+  text-decoration: none;
+}
+
+.secwkmob {
+  padding-bottom: 20px;
+}
+
+.secalmt {
+  display: flex;
+  align-items: center;
+}
+
+.seciconbox {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.seciconbox img {
+  width: 30%;
+}
+
+.seciconbox p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.secbgse1 {
+  background: #2A9293;
+  padding: 60px;
+}
+
+.secbgse2 {
+  background: #4CA7A8;
+  padding: 60px;
+}
+
+.sechottextbg h3 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.sechottextbg h5 {
+  font-family: 'Karla';
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sechottextbg ul li {
+  font-family: 'Karla';
+  color: #fff;
+  font-size: 20px;
+}
+.secbrands .owl-nav{
+  display: none;
+}
+.secbrands .owl-dots{
+display: none;
+}
+.secservbg2 {
+  background-image: url(../images/HairScalp-Rejuvenation-imgbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg2 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+
+}
+.secineseboxbg{
+  padding-bottom: 20px;
+}
+.secboxtexthai1{
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+}
+.secboxtexthai2{
+ font-family: 'Roboto';
+  font-size: 16px;
+  font-weight:300;
+  color: #000;
+}
+.secectbg{
+  background-color: #52B9BB;
+  padding: 35px 10px;
+}
+.secevertext{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin: 0;
 }

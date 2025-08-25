@@ -6,9 +6,10 @@
     width: 1903px;
     margin: auto;
   }
-.nav-area {
+
+  .nav-area {
     width: 80%;
-}
+  }
 
 }
 
@@ -75,13 +76,16 @@
     color: #0e3b3f;
     font-size: 22px;
   }
-.btn-green {
-         font-size: 10px;
-        padding: 14px 13px;
-    }
-    .btn-link {
+
+  .btn-green {
+    font-size: 10px;
+    padding: 14px 13px;
+  }
+
+  .btn-link {
     text-align: start;
-    }
+  }
+
   /* Hide desktop book button in mobile */
   .main-header>.d-flex {
     display: none !important;
@@ -130,7 +134,7 @@
 
   /* Full width book button in mobile */
   .book-btn-mobile {
-      font-family: 'Karla';
+    font-family: 'Karla';
     display: block;
     background: #f4935d;
     color: #1B444A;
@@ -151,73 +155,128 @@
   .herimgmob {
     display: block;
   }
+
   .secrdfg {
     display: flex;
     flex-direction: column-reverse;
-}
-.secwlbg1 {
+  }
+
+  .secwlbg1 {
     padding: 40px 0px;
-}
-.secimgr img {
+  }
+
+  .secimgr img {
     border-radius: 15px;
-}
-.sectextwel {
+  }
+
+  .sectextwel {
     padding-top: 20px;
-}
-.sectextwel h2 {
+  }
+
+  .sectextwel h2 {
     font-size: 32px;
     padding-bottom: 10px;
-}
-.secfeatubg {
+  }
+
+  .secfeatubg {
     padding: 40px 0px;
-}
-.secpamob{
-  padding: 0px;
-}
-.outextm {
+  }
+
+  .secpamob {
+    padding: 0px;
+  }
+
+  .outextm {
     font-size: 32px;
-}
-.sectextor {
+  }
+
+  .sectextor {
     padding-top: 20px;
-}
-.sechatetbg {
-    padding: 40px 0px;
-}
-.secpadmob{
-  padding: 20px;
-}
-.secpadmob .col-md-4 img{
-  padding-bottom: 20px;
-}
-.secblbg {
-    padding-bottom: 30px;
-}
-.revtext p {
-    font-size: 16px;
-}
-.secyouvidebg {
+  }
+
+  .sechatetbg {
+    padding: 40px 3px;
+  }
+
+  .secpadmob {
+    padding: 20px;
+  }
+
+  .secpadmob .col-md-4 img {
     padding-bottom: 20px;
-}
-.secyouvidebg iframe {
+  }
+
+  .secblbg {
+    padding-bottom: 30px;
+  }
+
+  .revtext p {
+    font-size: 16px;
+  }
+
+  .secyouvidebg {
+    padding-bottom: 20px;
+  }
+
+  .secyouvidebg iframe {
     border-radius: 10px;
-}
-.appointment-box {
+  }
+
+  .appointment-box {
     padding: 20px 0px;
-}
-.serfooterbg {
+  }
+
+  .serfooterbg {
     padding: 40px 10px;
-}
-.secheafotext {
+  }
+
+  .secheafotext {
     padding-bottom: 10px;
     padding-top: 40px;
-}
-.footer-nav {
-    justify-content: center;
-}
-.seccopy {
-    text-align: center;
-}
+  }
 
+  .footer-nav {
+    justify-content: center;
+  }
+
+  .seccopy {
+    text-align: center;
+  }
+
+  .secservbg h2 {
+    font-size: 40px;
+  }
+
+  .secsebgma {
+    padding: 40px 0px;
+  }
+
+  .secwkmob {
+    width: 50%;
+  }
+
+  .secfulltext {
+    font-size: 16px;
+  }
+  .sectextor h3 {
+    font-size: 30px;
+
+  }
+  .secwwbox {
+    width: 46%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 8px;
+}
+.secservbg2 {
+    padding: 80px 10px;
+}
+.secservbg2 h2 {
+    font-size: 40px;
+}
+.secevertext {
+    font-size: 30px;
+}
 }
 
 
