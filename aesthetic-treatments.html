@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estetca Dl'art</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- owl carousel 2 effects animation- -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" />
+
+    <!-- Bricolage Grotesque -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- css link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="icon" href="images/main-logo.png">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container-fluid headerhomebg">
+        <div include-html="header.html" id="header-file"></div>
+    </div>
+
+    <!-- hero -->
+    <div class="container-fluid secservbg4">
+        <h2>Facial Aesthetics & <br> Injectables</h2>
+    </div>
+
+    <!--  Artful Dentistry. Technological Precision. Smile Mastery. -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <div class="row m-0 ">
+                <div class="col-md-6">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Brands-logo-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 secalmt">
+                    <div class="sectextor secultext">
+                        <h3 class="text-light">Signature Harmonization. Global Brands. Natural Beauty.</h3>
+                        <p class="text-light">At Estetca Dlart Klinics, Dr Jaitly Priya delivers facial artistry with
+                            FDA-approved, CE-certified injectables from the most trusted international brands. Every
+                            face is treated as a canvas, with meticulous precision and aesthetic understanding.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skin Boosters – For Deep Hydration & Collagen Glow -->
+    <div class="container-fluid secfeatubg">
+        <div class="container secpamob">
+            <h2 class="outextm">Skin Boosters – For Deep Hydration & Collagen Glow</h2>
+            <div class="row m-0 secdf">
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Glow-img1.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">NCTF 135 HA</h3>
+                        <p class="secboxtexthai2">Mesotherapy cocktail by Fillmed (France) for skin quality restoration
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Glow-img2.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Profhilo®</h3>
+                        <p class="secboxtexthai2">Bio-remodeling hyaluronic acid for tightness & glow</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Glow-img3.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">SkinVive™ by Juvederm</h3>
+                        <p class="secboxtexthai2">New-gen skin hydration injectable for glass-skin radiance</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Glow-img4.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Exosomes</h3>
+                        <p class="secboxtexthai2">Nano-peptide technology for regeneration and youth</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Glow-img5.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Mesotherapy</h3>
+                        <p class="secboxtexthai2">Customized vitamins, peptides & amino acids</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dermal Fillers – For Volume, Contour & Lift -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <h2 class="outextm text-light">Dermal Fillers – For Volume, Contour & Lift</h2>
+            <div class="row m-0 secdf">
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img1.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Juvederm® (USA)</h3>
+                        <p class="secboxtexthai2 text-light">Trusted, elegant results for lips, cheeks, under-eyes &
+                            more</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img2.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Restylane® (Sweden)</h3>
+                        <p class="secboxtexthai2 text-light">Natural, flexible filler for facial balancing</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img3.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Croma® (Austria)</h3>
+                        <p class="secboxtexthai2 text-light">Precision hyaluronic filler for soft, defined features</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img4.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">E.P.T.Q.® (Korea)</h3>
+                        <p class="secboxtexthai2 text-light">Korean soft-tissue filler with high viscoelasticity</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img5.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Sculptra® (USA)</h3>
+                        <p class="secboxtexthai2 text-light">Biostimulator to build collagen and reverse volume loss</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Lift-img6.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light"> Radiesse® (Germany)</h3>
+                        <p class="secboxtexthai2 text-light">Calcium-based filler for lifting and collagen stimulation
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Botulinum Toxin – For Wrinkles, Lift & Refinement -->
+    <div class="container-fluid secfeatubg">
+        <div class="container secpamob">
+            <h2 class="outextm">Botulinum Toxin – For Wrinkles, Lift & Refinement</h2>
+            <div class="row m-0">
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Refinement-img1.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Botox® (USA)</h3>
+                        <p class="secboxtexthai2">The gold standard in wrinkle smoothing</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Refinement-img2.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Siax®</h3>
+                        <p class="secboxtexthai2">Precision Korean neurotoxin with reliable results</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Refinement-img3.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1"> Stunnox®</h3>
+                        <p class="secboxtexthai2">High-purity botulinum for subtle softening</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Refinement-img4.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Nabota®</h3>
+                        <p class="secboxtexthai2">Fast-acting wrinkle relaxer with a clean profile</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Refinement-img5.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1">Botogene®</h3>
+                        <p class="secboxtexthai2">Next-gen neurotoxin for expression control with finesse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Threads & Thread Lift Treatments -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <h2 class="outextm text-light p-0">Threads & Thread Lift Treatments</h2>
+            <h5 class="seclit1">Instant Lift. Long-Term Collagen. Sculpted Elegance.</h5>
+            <p class="seclit2">At Estetca Dlart Klinics, thread lift procedures are performed by Dr Jaitly Priya using
+                globally
+                certified threads designed to lift, contour, and stimulate natural collagen. This minimally invasive
+                technique is ideal for those seeking facelift-like results without surgery and with natural grace.</p>
+
+            <h3 class="seclit3">Types of Threads Offered</h3>
+            <div class="row m-0 secdf">
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img1.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Double Needle Threads</h3>
+                        <p class="secboxtexthai2 text-light">For lifting and anchoring larger zones (midface, jaw, neck)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img2.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">COG Threads</h3>
+                        <p class="secboxtexthai2 text-light">Barbed threads for mechanical lifting and collagen
+                            stimulation</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img3.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Mono Threads</h3>
+                        <p class="secboxtexthai2 text-light">Smooth threads for skin firming, fine line reduction, and
+                            texture improvement</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img4.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Mesh Threads</h3>
+                        <p class="secboxtexthai2 text-light">Used in net-like patterns for under-eye hollowness, temples
+                            & neck skin</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img5.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Mint™ PDO Threads</h3>
+                        <p class="secboxtexthai2 text-light">US FDA-cleared threads for powerful lifting with less
+                            downtime</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img6.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Aptos Threads</h3>
+                        <p class="secboxtexthai2 text-light">Premium European threads combining safety, precision, and
+                            long-lasting effects</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Treatments-img7.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 text-light">Cobra Threads</h3>
+                        <p class="secboxtexthai2 text-light">Spiral coiled threads for volumizing, lifting, and facial
+                            definition</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Areas Treated with Threads -->
+    <div class="container-fluid secfeatubg">
+        <div class="container secpamob">
+            <h2 class="outextm">Areas Treated with Threads</h2>
+            <div class="row m-0">
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img1.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Jawline definition & double chin lift</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img2.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Midface & cheek lifting</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img3.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Eyebrow lift / Fox eye lift</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img4.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Neck tightening</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img5.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Nasolabial fold softening</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img6.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Under-eye rejuvenation</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img7.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Marionette lines correction</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="secineseboxbg">
+                        <div class="secimgr2">
+                            <img class="img-fluid" src="images/Areas-img8.png" alt="">
+                        </div>
+                        <h3 class="secboxtexthai1 secfoz">Nose tip lift & contouring</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  Why Choose Threads at Estetca Dlart? -->
+    <div class="container-fluid sechatetbg">
+        <div class="container secpamob">
+            <div class="row m-0 secrdfg">
+                <div class="col-md-6 secalmt">
+                    <div class="sectextor secultext">
+                        <h3 class="text-light">Why Choose Threads at Estetca Dlart?</h3>
+                        <p class="text-light">• Ultra-fine aesthetic detailing by Dr Jaitly Priya</p>
+                        <p class="text-light"> • Global CE & FDA-approved materials</p>
+                        <p class="text-light"> • Combination protocols with fillers or HIFU for enhanced results</p>
+                        <p class="text-light"> • Local anesthesia, no stitches, minimal downtime</p>
+                        <p class="text-light"> • Artistic & anatomically safe technique</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/EstetcaDlart-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Advanced Injectables by Dr Jaitly Priya -->
+    <div class="container-fluid secadinbg">
+        <div class="container secpamob">
+            <div class="row m-0">
+                <div class="col-md-6">
+                    <div class="secimgr2">
+                        <img class="img-fluid" src="images/Dr-Jaitly-Priya-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 secalmt">
+                    <div class="sectextor secultext">
+                        <h3 class="text-light">Advanced Injectables by Dr Jaitly Priya</h3>
+                        <p class="text-light">• Full Face Harmonization</p>
+                        <p class="text-light">• Non-Surgical Nose Shaping</p>
+                        <p class="text-light">• Under-eye Correction </p>
+                        <p class="text-light">• Chin & Jawline Sculpting</p>
+                        <p class="text-light">• Lip Redefinition</p>
+                        <p class="text-light">• Neck Rejuvenation & Tech-Neck Fillers</p>
+                        <p class="text-light">• Temple & Midface Volume Lift</p>
+                        <p class="text-light">• Facial Slimming with Botulinum Toxin</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div include-html="footer.html" id="footer-file"></div>
+
+    <!-- tab -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/include-html.min.js"></script>
+
+
+
+</body>
+
+</html>

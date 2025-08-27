@@ -1,7 +1,9 @@
 <header class="main-header container-fluid p-0">
   <!-- Left Logo -->
   <div class="header-logo">
+    <a href="index.html">
     <img src="images/main-logo.png" alt="Logo">
+    </a>
   </div>
 
   <!-- Middle Area (Desktop only) -->
@@ -39,7 +41,7 @@
             </li>
             <li class="nav-item"><a class="nav-link" href="#">RESULTS & TRANSFORMATIONS</a></li>
             <li class="nav-item"><a class="nav-link" href="#">BLOGS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">CLINIC LOCATION</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://maps.app.goo.gl/SETQMYk1jKrfcPKYA" target="_blank">CLINIC LOCATION</a></li>
           </ul>
           <i class="fas fa-search search-icon seciconse"></i>
         </div>
@@ -86,7 +88,7 @@
       </li>
       <li class="nav-item"><a class="nav-link" href="#">RESULTS & TRANSFORMATIONS</a></li>
       <li class="nav-item"><a class="nav-link" href="#">BLOGS</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">CLINIC LOCATION</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://maps.app.goo.gl/SETQMYk1jKrfcPKYA" target="_blank">CLINIC LOCATION</a></li>
     </ul>
   </div>
 </div>
@@ -97,3 +99,25 @@
   <a href="https://www.facebook.com/drpriyajaitlymehta/" target="_blank"><i class="fab fa-facebook-f"></i></a>
   <a href="https://www.instagram.com/estetcadlart/" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+<script>
+  var btn = $('#button');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+
+</script>

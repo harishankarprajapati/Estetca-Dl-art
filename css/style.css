@@ -321,7 +321,7 @@ hr.sechrher {
 .outextm {
   font-family: 'Roboto';
   color: #000000;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   text-align: center;
   padding-bottom: 20px;
@@ -692,3 +692,191 @@ display: none;
   color: #fff;
   margin: 0;
 }
+.secservbg3 {
+  background-image: url(../images/Dental-Aesthetics-Smile-design-imgbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg3 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+
+}
+.secdf{
+  justify-content: center;
+}
+.secservbg4 {
+  background-image: url(../images/aesthetic-treatments-imgbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg4 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #000;
+
+}
+.seclit1{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+.seclit2{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+}
+.seclit3{
+  font-family: 'Roboto';
+    font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.secfoz{
+  font-size: 16px !important;
+}
+.secadinbg {
+  background-color: #52B9BB;
+  padding: 60px;
+}
+.secservbg5 {
+  background-image: url(../images/Advance-skin-rejuvenation-services-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg5 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #000;
+
+}
+.secservbg6 {
+  background-image: url(../images/Permanent-Makeup-Micropigmentation-bgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg6 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+
+}
+.secservbg7 {
+  background-image: url(../images/Trainwiththe-DoctorArtist-imgbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg7 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+/* back to top */
+#button {
+  display: inline-block;
+  background-color: #1B444A;
+  border: 1px solid #F2985C;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #F2985C;
+   border: 1px solid #1B444A;
+}
+
+#button:active {
+  background-color: #F2985C;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.content {
+  width: 77%;
+  margin: 50px auto;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+}
+
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+
+  #button {
+    margin: 30px;
+  }
+}
+
+p.secdiet img {
+  padding-bottom: 10px;
+}
+
+.content h1 {
+  margin-bottom: -10px;
+  color: #03a9f4;
+  line-height: 1.5;
+}
+
+.content h3 {
+  font-style: italic;
+  color: #96a2a7;
+}
+
+/* back to top-end */
