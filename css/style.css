@@ -111,8 +111,9 @@
 }
 
 .book-btn:hover {
-  background: #1B444A;
-  color: #fff;
+  text-decoration: none;
+  background: #F2985C;
+  color: #000;
 }
 
 div#navbarNav {
