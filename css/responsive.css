@@ -270,13 +270,13 @@
     padding: 10px;
     margin: 8px;
 }
-.secservbg2 h2 , .secservbg3 h2 , .secservbg4 h2 , .secservbg5 h2 , .secservbg6 h2 , .secservbg7 h2 {
+.secservbg2 h2 , .secservbg3 h2 , .secservbg4 h2 , .secservbg5 h2 , .secservbg6 h2 , .secservbg7 h2 , .secservbg8 h2 {
     font-size: 37px;
 }
 .secevertext {
     font-size: 30px;
 }
-.secservbg2 , .secservbg4  , .secservbg3 , .secservbg4 , .secservbg5 , .secservbg6 , .secservbg7  {
+.secservbg2 , .secservbg4  , .secservbg3 , .secservbg4 , .secservbg5 , .secservbg6 , .secservbg7 , .secservbg8  {
     padding: 80px 20px;
 }
 .secfoz {

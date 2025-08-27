@@ -800,6 +800,22 @@ display: none;
   color: #fff;
 
 }
+.secservbg8 {
+  background-image: url(../images/aboutbgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+
+}
+
+.secservbg8 h2 {
+  font-family: 'Roboto';
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+
+}
+
 
 /* back to top */
 #button {
