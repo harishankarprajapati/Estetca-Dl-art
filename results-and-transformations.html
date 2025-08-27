@@ -87,34 +87,6 @@
   <!-- Include HTML -->
   <script src="js/include-html.min.js"></script>
 
-  <!-- Gallery Script -->
-  <script>
-    const galleryImgs = document.querySelectorAll("#gallery img");
-    const carouselInner = document.getElementById("carousel-inner");
 
-    galleryImgs.forEach((img, index) => {
-      let div = document.createElement("div");
-      div.classList.add("carousel-item");
-      if (index === 0) div.classList.add("active");
-
-      let slideImg = document.createElement("img");
-      slideImg.src = img.src;
-      slideImg.className = "d-block w-100 rounded";
-
-      div.appendChild(slideImg);
-      carouselInner.appendChild(div);
-
-      img.addEventListener("click", () => {
-        let modal = new bootstrap.Modal(document.getElementById("galleryModal"));
-        modal.show();
-
-        let bsCarousel = bootstrap.Carousel.getInstance(document.getElementById("galleryCarousel"));
-        if (!bsCarousel) {
-          bsCarousel = new bootstrap.Carousel(document.getElementById("galleryCarousel"));
-        }
-        bsCarousel.to(index);
-      });
-    });
-  </script>
 </body>
 </html>
