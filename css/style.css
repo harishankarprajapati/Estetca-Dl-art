@@ -960,3 +960,6 @@ p.secdiet img {
 .sectransformative button.owl-dot.active {
   background-color: #1B444A !important;
 }
+.instagram-media img{
+    height: auto !important;
+}
